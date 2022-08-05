@@ -41,6 +41,11 @@
     background-color: rgb(230, 230, 230);
     border-radius: 1%;
 }
+.result{
+    font-size: 4rem;
+    color: blue;
+    text-align: right;
+}
 .keys{
     margin: 10px 4px;
     padding: 2px;
