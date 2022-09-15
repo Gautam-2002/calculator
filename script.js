@@ -29,10 +29,15 @@ function display(){
 }
 function output(){
     ans += num;
-    console.log("num = "+num)
-    console.log("ans = "+ans)
-    var res = eval(ans);
-    panel.innerText = res;
+    // console.log("num = "+num)
+    // console.log("ans = "+ans)
+    try{
+        var res = eval(ans);
+        panel.innerText = res;
+    }
+    catch{
+        panel.innerText = "ERROR";
+    }
     ans = "";
     num = res;
 }
